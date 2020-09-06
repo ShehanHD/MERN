@@ -1,0 +1,73 @@
+.chat-title {
+    z-index: 5;
+    background-color: rgb(216, 216, 216) !important;
+    height: 6vh;
+    border-radius: 0 !important;
+    padding: 0 !important;
+
+    .MuiList-padding {
+        padding: 0 !important;
+    }
+
+    .MuiListItem-root {
+        padding-top: 0 !important;
+    }
+}
+
+.chat-body {
+    background-color: rgb(230, 230, 230);
+    background-image: url('https://sirolad.com.ng/images/pattern.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 84vh;
+
+    .MuiListItemText-primary {
+        font-size: x-small !important;
+    }
+
+    .recived {
+        text-align: right;
+
+        .MuiTypography-body2 {
+            border: solid rgb(8, 4, 252) 1px;
+            width: 60% !important;
+            float: right;
+            padding: 1%;
+            border-radius: 10px;
+        }
+    }
+
+    .sent {
+        .MuiTypography-body2 {
+            border: solid rgb(255, 0, 0) 1px;
+            width: 60% !important;
+            padding: 1%;
+            border-radius: 10px;
+        }
+    }
+}
+
+.chat-input {
+    z-index: 5;
+    background-color: rgb(216, 216, 216) !important;
+    height: 7vh;
+    border-radius: 0 !important;
+
+    .MuiFormControl-root {
+        width: 100%;
+
+        div {
+            border-radius: 20px;
+            height: 40px !important;
+            background-color: rgb(255, 255, 255);
+
+            button:hover {
+                background-color: transparent !important;
+            }
+        }
+    }
+
+    .send-icon {
+        color: rgb(0, 0, 0);
+    }
+}
