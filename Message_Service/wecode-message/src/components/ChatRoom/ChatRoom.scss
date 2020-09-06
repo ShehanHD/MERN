@@ -1,6 +1,6 @@
 .chat-title {
     z-index: 5;
-    background-color: rgb(216, 216, 216) !important;
+    background-color: #d8d8d8 !important;
     height: 7vh;
     border-radius: 0 !important;
     padding: 0 !important;
@@ -28,7 +28,7 @@
 
     .recived {
         .MuiTypography-body2 {
-            background-color: #0026ff71;
+            background-color: #7d819271;
             width: 60% !important;
             padding: 1%;
             border-radius: 10px 0 10px 0;
@@ -39,7 +39,7 @@
         text-align: right;
 
         .MuiTypography-body2 {
-            background-color: #37ff0071;
+            background-color: #ffffff71;
             width: 60% !important;
             float: right;
             padding: 1%;
@@ -50,7 +50,7 @@
 
 .chat-input {
     z-index: 5;
-    background-color: rgb(216, 216, 216) !important;
+    background-color: #d8d8d8 !important;
     height: 7vh;
     border-radius: 0 !important;
     padding-top: 1vh !important;
@@ -58,6 +58,10 @@
 
     .MuiFormControl-root {
         width: 100%;
+
+        .Mui-focused {
+            background-color: #ffffff71;
+        }
 
         div {
             border-radius: 20px;

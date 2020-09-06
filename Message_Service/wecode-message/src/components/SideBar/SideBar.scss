@@ -1,6 +1,6 @@
 .contact-title {
     z-index: 5;
-    background-color: rgb(216, 216, 216) !important;
+    background-color: #d8d8d8 !important;
     border-radius: 0 !important;
     height: 7vh;
     padding: 0 !important;
@@ -38,7 +38,7 @@
 
 .contact-body {
     margin-right: 1px;
-    background-color: rgb(235, 235, 235);
+    background-color: #d8d8d8;
     height: 84vh;
     padding: 0 !important;
 
@@ -49,4 +49,8 @@
     .MuiListItem-root {
         padding-top: 0 !important;
     }
+}
+
+.MuiDivider-inset {
+    margin-left: 0 !important;
 }
