@@ -1,7 +1,7 @@
 .chat-title {
     z-index: 5;
     background-color: rgb(216, 216, 216) !important;
-    height: 6vh;
+    height: 7vh;
     border-radius: 0 !important;
     padding: 0 !important;
 
@@ -19,7 +19,7 @@
     background-image: url('https://sirolad.com.ng/images/pattern.svg');
     background-repeat: no-repeat;
     background-size: cover;
-    height: 84vh;
+    height: 83vh;
 
     .MuiListItemText-primary {
         font-size: x-small !important;
@@ -52,13 +52,15 @@
     background-color: rgb(216, 216, 216) !important;
     height: 7vh;
     border-radius: 0 !important;
+    padding-top: 1vh !important;
+    padding-bottom: 1vh !important;
 
     .MuiFormControl-root {
         width: 100%;
 
         div {
             border-radius: 20px;
-            height: 40px !important;
+            height: 5vh !important;
             background-color: rgb(255, 255, 255);
 
             button:hover {
