@@ -70,6 +70,12 @@
         }
     }
 
+    .Mui-focused {
+        border: none !important;
+        outline: none !important;
+        box-shadow: none !important;
+    }
+
     .send-icon {
         color: rgb(0, 0, 0);
     }
