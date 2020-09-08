@@ -1,5 +1,6 @@
 html {
     scroll-behavior: smooth;
+    background-color: #b9b9b9;
 }
 
 ::-webkit-scrollbar {
@@ -11,5 +12,8 @@ html {
 }
 
 .main {
+    border-radius: 20px !important;
+    box-shadow: 20px 20px 60px #b8b8b8,
+        -20px -20px 60px #e2dfdf !important;
     margin-top: 1vh !important;
 }
