@@ -21,12 +21,13 @@
     background-size: cover;
     height: 83vh;
     padding: 0 !important;
+    overflow: scroll;
 
     .MuiListItemText-primary {
         font-size: x-small !important;
     }
 
-    .recived {
+    .received {
         .MuiTypography-body2 {
             background-color: #7d819271;
             width: 60% !important;

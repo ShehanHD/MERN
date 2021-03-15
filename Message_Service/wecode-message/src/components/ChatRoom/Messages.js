@@ -3,17 +3,17 @@ import { ListItem, ListItemText, Typography } from '@material-ui/core'
 
 const Messages = (props) => {
     return (
-        <ListItem button className={props.msgState}>
+        <ListItem button className={props.msgState ? "received" : "sent"}>
             <ListItemText
-                primary={"11:30 pm"}
+                primary={props.timeStamp}
                 secondary={
                     <Typography
                         component="div"
                         variant="body2"
                         color="textPrimary"
                     >
-                        HI TEST MSG
-                        </Typography>
+                        {props.msg}
+                    </Typography>
                 }
             />
         </ListItem>

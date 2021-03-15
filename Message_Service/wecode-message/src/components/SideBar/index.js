@@ -21,8 +21,8 @@ const SideBar = () => {
                 <Grid item xs={12} className={'contact-body'} >
                     <List>
                         <Chats id={1} setSelectedUser={setSelectedUser} isSelected={selectedUser === 1} />
-                        <Chats id={2} setSelectedUser={setSelectedUser} isSelected={selectedUser === 2} />
-                        <Chats id={3} setSelectedUser={setSelectedUser} isSelected={selectedUser === 3} />
+                        {/* <Chats id={2} setSelectedUser={setSelectedUser} isSelected={selectedUser === 2} />
+                        <Chats id={3} setSelectedUser={setSelectedUser} isSelected={selectedUser === 3} /> */}
                     </List>
                 </Grid>
             </Grid>
